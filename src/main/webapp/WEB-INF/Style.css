@@ -1,0 +1,272 @@
+
+
+
+
+
+
+.navbar-brand {
+    font-weight: bold;
+}
+.navbar-light .navbar-brand{
+    margin-top: 5px;
+}
+.nav-link-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.logo{
+    display: flex;
+    gap: 10px;
+}
+#nav{
+
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    height: 70px;
+    background: #ffffff47;
+    backdrop-filter: blur(15px);
+
+}
+.header{
+    height:600px;
+    background: url('https://images.squarespace-cdn.com/content/v1/58339c1d5016e1d0634f9831/1480989204683-COVLJMLUWKBPJPC84XM9/industrial-construction-alabama.jpg') no-repeat bottom right/cover;
+    /*background: url("https://allenif.com/wp-content/uploads/2020/11/hard-hat-plans-tape-measure_website.jpg") no-repeat bottom right/cover;*/
+    backdrop-filter: blur(2px);
+}
+.header2{
+
+    height: 65%;
+    /*background-color: rgba(4, 9, 30, 0.7);*/
+    background :url("https://en.idei.club/uploads/posts/2023-06/1686013328_en-idei-club-p-building-construction-background-dizain-in-26.jpg")no-repeat bottom right/cover ;
+}
+.nav-link{
+    font-weight: bold;
+    color: white;
+    display: flex;
+    gap: 5px;
+}
+.navbar-expand-lg{
+    height: 80px;
+}
+.title{
+
+    width:700px;
+    margin:159px auto;
+    color:white;
+    text-align: center;
+}
+.title > h2{
+    font-size:40px;
+    text-transform:uppercase;
+    font-weight:800;
+    text-shadow: 0 0 20px white;
+}
+.title > h4{
+    font-size:14px;
+    text-transform:uppercase;
+    font-weight:600;
+    color:white;
+
+}
+
+.container.text-center.my-5 {
+    color: #ffffff; /* Couleur du texte en blanc */
+}
+
+
+label {
+    margin-right: 10px;
+}
+.navbar-nav{
+    height: 10%;
+}
+/* /////////////////////////////////////////////////////////*/
+/* les Cards dans la page d'accueil*/
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #272424;
+    color: #333;
+
+}
+
+.body {
+    font-family: Arial, sans-serif;
+    background-color: #272424;
+    color: #333;
+
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+p.text-muted {
+    font-size: 1.2rem;
+    color: #6c757d;
+}
+
+.card1 {
+    border: none;
+    box-shadow:0 1px 5px #ffffff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card1:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgb(255, 218, 7);
+}
+
+.card1-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card1-text {
+    font-size: 1rem;
+    color: #666;
+}
+.container.text-center.my-5 {
+    color: #ffffff;
+}
+
+
+
+
+/*//////////*/
+.description {
+    font-size: 1em;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.btn {
+    font-size: 1em;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #dca63d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #b88a2e;
+}
+h1 {
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 20px;
+
+    text-transform:uppercase;
+    font-weight:600;
+
+}
+.bgadd {
+    background-color: #f8f9fa}
+
+
+/*   Css de la page Afficher les projets */
+.navbar-brand {
+    font-weight: bold;
+}
+
+.titleProjet{
+
+    width:700px;
+    margin:118px auto;
+    color:white;
+    text-align: center;
+
+
+}
+.titleProjet >h1{
+    font-size: 48px;
+    font-weight: 600;
+    color: black;
+
+    text-transform:uppercase;
+
+    text-shadow: 0 0 20px white;
+
+}
+.titre{
+    font-family: "Poppins", sans-serif;
+    color: rgba(255, 255, 255, 0.95);
+    line-height: 1.2em;
+    margin-bottom: 55px;
+    margin-top: 55px;
+    font-weight: 600;
+    font-size: 36px;
+}
+.para{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 20px auto;
+}
+
+
+
+.imgCard{
+    cursor: pointer;
+}
+/*  button add
+.add-project-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-project-btn:hover {
+    background-color: #0056b3;
+}
+.btnAjou{
+    margin-bottom: 15px;
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: left;
+    padding: 0px 0px 0px 20px;
+
+}
+
+
+
+/* la page Ajooouter */
+
+/* Styles de base pour le bouton */
+.add-project-btn {
+    background-color: #dca63d; /* Couleur de fond dorée */
+    color: black; /* Couleur du texte */
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 36px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Ombre pour le texte */
+.add-project-btn {
+    font-weight: bold;
+}
+
+/* Effet hover */
+.add-project-btn:hover {
+    background-color: #b8860b; /* Couleur de survol dorée plus foncée */
+    color: white; /* Couleur du texte au survol */
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.7); /* Ombre de texte au survol */
+}
